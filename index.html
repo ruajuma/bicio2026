@@ -4,34 +4,45 @@
     <meta charset="UTF-8">
     <title>Mi tabla de Excel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
+            margin: 0;
+            padding: 0;
             font-family: Arial, sans-serif;
-            margin: 20px;
+
+            /* FOTO DE FONDO */
+            background-image: url("https://ruta-de-tu-imagen.jpg");
+            background-size: cover;        /* La imagen cubre toda la pantalla */
+            background-position: center;   /* Centrada */
+            background-attachment: fixed;  /* Efecto parallax */
         }
-        h1 {
-            color: #0066cc;
-        }
-        .excel-container {
-            width: 100%;
+
+        .contenedor {
+            background: rgba(255, 255, 255, 0.85); /* Fondo blanco semitransparente */
             max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        iframe {
+            width: 100%;
             height: 600px;
+            border: none;
         }
     </style>
 </head>
-<body>
-    <h1>Tabla publicada desde Excel (OneDrive)</h1>
-    <p>Los datos se cargan directamente desde el Excel en OneDrive.</p>
 
-    <div class="excel-container">
-        <!-- AQUÍ PEGAS EL CÓDIGO QUE TE DA ONEDRIVE -->
+<body>
+    <div class="contenedor">
+        <h1>Tabla publicada desde Excel (OneDrive)</h1>
+        <p>Los datos se cargan directamente desde el Excel en OneDrive.</p>
+
+        <!-- AQUÍ PEGAS EL CÓDIGO DE ONEDRIVE -->
         <!-- Ejemplo de estructura: -->
         <!--
-        <iframe src="https://onedrive.live.com/embed?resid=XXXXXXXXX&authkey=YYYYYYYY&em=2"
-                width="1000"
-                height="600"
-                frameborder="0">
-        </iframe>
+        <iframe src="https://onedrive.live.com/embed?resid=XXXXXXXX&authkey=YYYYYYY&em=2"></iframe>
         -->
     </div>
 </body>

@@ -2,6 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
             margin: 0;
@@ -9,21 +11,59 @@
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: black;
+            padding: 20px;
+            font-size: 2.2rem;
+        }
+
+        /* Contenedor para centrar y limitar el ancho */
+        .iframe-container {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        iframe {
+            width: 100%;
+            height: 350px;
+            border: none;
+        }
+
+        /* Ajustes para pantallas pequeñas */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.6rem;
+                padding: 10px;
+            }
+
+            iframe {
+                height: 260px;
+            }
         }
     </style>
 </head>
+
 <body>
-    <h1 style="font-family: Arial;color:black; padding:40px;">BICIO 2026 CLASIFICACION</h1>
 
-<iframe width="60%" height="346" frameborder="0" scrolling="no" src="https://1drv.ms/x/c/ad8f523578c6e8bd/IQTt4KSYpo-fSrRGncnPCkLJAW21_z49fVZGmRgFaHBDe24?em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&waccluster=GEU9&edaebp=&edaebf=ctrl"></iframe>
+    <h1>BICIO 2026 CLASIFICACION</h1>
 
-<br><br> <!-- Separación opcional -->
+    <div class="iframe-container">
+        <iframe scrolling="no" src="https://1drv.ms/x/c/ad8f523578c6e8bd/IQTt4KSYpo-fSrRGncnPCkLJAW21_z49fVZGmRgFaHBDe24?em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&waccluster=GEU9&edaebp=&edaebf=ctrl"></iframe>
+    </div>
 
-<h1 style="font-family: Arial;color:black; padding:40px;">BICIO 2026 CALENDARIO</h1>
+    <h1>BICIO 2026 CALENDARIO</h1>
 
-<iframe width="60%" height="346" frameborder="0" scrolling="no" src="https://1drv.ms/x/c/ad8f523578c6e8bd/IQRZN63jb2vZSIdz8HQf4qkJAYzYHcrEjQXbAcQCKyTIb_A?em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&waccluster=GFR1&edaebp=&edaebf=ctrl"></iframe>
-
+    <div class="iframe-container">
+        <iframe scrolling="no" src="https://1drv.ms/x/c/ad8f523578c6e8bd/IQRZN63jb2vZSIdz8HQf4qkJAYzYHcrEjQXbAcQCKyTIb_A?em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&waccluster=GFR1&edaebp=&edaebf=ctrl"></iframe>
+    </div>
 
 </body>
+</html>
+
 </html>
 
